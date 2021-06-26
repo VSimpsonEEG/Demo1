@@ -1,0 +1,79 @@
+To Do List 
+
++=========================================================+
+|               Check list                                |
++=========================================================+
+
+[x] complete | [] pending | [?] Question | [!] defects/bugs
+
+[x]navigation bar 
+[x] Header 
+    [x] logo 
+    [x] name of the website 
+[x] footer 
+    [x] contact us page 
+    [x] privacy policy page 
+    [x] Our social medias
+    [x] Disclaimer  
+
+[x]Home page
+    [x] logo 
+    [x] Name of the website 
+    [x] Navbar 
+    [x] announcements 
+    [x] paragraph 
+    [x] blank asides 
+    [x] privacy policy 
+    [x] contact page
+    [x] our social medias
+    [x]html
+    [x] css
+[x] About page 
+    [x] logo 
+    [x] Name of the website 
+    [x] Navbar 
+    [x] description
+    [x] details  
+    [x] blank asides 
+    [x] privacy policy 
+    [x] contact page
+    [x] our social medias
+    [x]html
+    [x] css
+[x] Products page
+    [x] logo 
+    [x] Name of the website 
+    [x] Navbar 
+    [x]table of products 
+        [x] figure 
+        [x] Downloadable link
+        [x] figcaption
+    [x] blank asides 
+    [x] privacy policy 
+    [x] contact page
+    [x] our social medias
+    [x]html
+    [x] css
+[x] Contact page
+    [x] logo 
+    [x] Name of the website 
+    [x] Navbar 
+    [x] email 
+    [x] privacy policy 
+    [x] contact page
+    [x] our social medias
+    [x]html
+    [x] css
+
+[] (Default) 404 page - link to host server for this to work! 
+    [x] Navbar 
+    [x] paragraph 
+    [x]html
+        [x] html - format
+        [x] meta - data 
+        [x] body
+        [x] header
+        [x] main
+        [x] footer
+        [x] aside 
+    [x] css

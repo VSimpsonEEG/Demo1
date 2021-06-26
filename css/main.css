@@ -1,0 +1,109 @@
+/* Miscellaneous *********************************************************/
+
+a {
+    color:rgb(255, 255, 255);   
+}
+/* Lists **********************/
+li {
+    display: inline-flex; /*Horizontal under ordered list*/
+    list-style-type: none; /*remove the bullet points*/
+ }
+ /*list anchors ***************/
+li a {
+    /*text */
+    background-color: rgb(7, 7, 7); /*background text color*/
+    color:rgb(255, 255, 255); /*Default text color*/
+    
+    /*space between fields*/
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+}
+/*list anchors on hover that is not active  */
+li a:hover:not(.active) {
+    background-color: rgb(0, 204, 255); 
+    color:black;
+}
+/*Active class*/
+.active {
+    background-color: rgb(0, 162, 255);
+        color: white; 
+
+    /*space between fields*/
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 4px; 
+    padding-bottom: 4px;  
+}
+
+/* Header **************************************************************/
+header {
+    /*image of the background*/
+    background-color: rgb(32, 32, 32);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* Text */
+    text-align: center;
+    color: white;
+    /*space between fields*/
+    margin: 0px; 
+    border:4px;
+    padding:20px 0%;  
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;  
+    content: 0; 
+}
+/* Footer **************************************************************/
+
+footer {
+   
+    /*Alignment*/
+    float:none;
+    /* Text */
+    text-align: center;
+    color:rgb(255, 255, 255);  
+    text-overflow: wrap; 
+    overflow: auto; 
+    /*image of the background*/
+    background-color: rgb(32, 32, 32);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*space between fields*/
+    margin: 0px; 
+    border:0px;
+    padding:20px 0%;  
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+    content: 0; 
+}
+/*Media  ***************************************************************/
+@media screen and (min-width: 600px) {
+    /*mobile first- iPhone XR*/ 
+    h1, h2, h3 {
+        font-size: 22px;
+      }
+        p {
+        font-size: 16px;
+      }
+
+
+      
+}
+@media screen and (max-width: 1920px) {
+/*desktop first*/  
+    
+    h2, h3 {
+        font-size: medium;
+    }   
+    p {
+        font-size: 18px;
+    }
+
+}
